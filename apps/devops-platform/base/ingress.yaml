@@ -3,8 +3,9 @@ kind: Ingress
 metadata:
   name: devops-platform
   namespace: devops-platform
+  annotations:
+    kubernetes.io/ingress.class: traefik
 spec:
-  ingressClassName: traefik
   rules:
     - host: devops-platform.13.49.128.176.nip.io
       http:
