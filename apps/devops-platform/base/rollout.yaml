@@ -18,7 +18,7 @@ spec:
         - name: dockerhub-private
       containers:
         - name: devops-platform
-          image: danindu05/devops-platform:e1e5fcfd5354c216cb59b07254daa04552e10cc5
+          image: danindu05/devops-platform:a16f438448c2fa7e175e8f7945d3d66ea1b93a3e
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
